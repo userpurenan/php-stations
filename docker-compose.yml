@@ -1,0 +1,27 @@
+version: "3.9"
+services:
+  php-container:
+    build: ./docker/php/
+    container_name: "php-stations"
+    volumes:
+      - ./:/app:cached
+    depends_on:
+      - composer_installation
+  composer_installation:
+    container_name: php-stations-composer-installation
+    image: composer
+    volumes:
+      - ./:/app
+    entrypoint:
+      - sh
+    command:
+      # .exec-onceというファイルがあったら実行しない
+      # 最初にコマンド実行がなされていたら、.exec-onceというファイルが作成されるようにしている
+      # .exec-onceがあるが、すでにcomposer installなどが実行されているケースもあるため、
+      # 注意すること。もし.exec-onceがあるのに、次のものが存在する場合は、何かしら個人で触った影響。
+      # - vendorディレクトリがある(composer installが実行済みであるということ)
+      - -c
+      - |
+        [ -f ./.exec-once ] || {
+          composer install --ignore-platform-reqs && touch ./.exec-once
+        }
