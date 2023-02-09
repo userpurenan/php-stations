@@ -1,0 +1,14 @@
+{
+    "name": "Station 05",
+    "id": 686,
+    "prepare": [],
+    "tests": [
+        {
+            "type": "junit-compat",
+            "command": "docker run --rm -t -i --volume ./:/app --name php-stations-test php-stations:latest vendor/bin/phpunit --group=station05 --log-junit ./test-outputs/station05.xml",
+            "args": [],
+            "shell": true,
+            "reportFile": "/test-outputs/station05.xml"
+        }
+    ]
+}
