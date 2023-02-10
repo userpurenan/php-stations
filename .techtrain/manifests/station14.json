@@ -5,7 +5,7 @@
     "tests": [
         {
             "type": "junit-compat",
-            "command": "docker run --rm -t -i --volume $PWD:/app --name php-stations-test php-stations:latest vendor/bin/phpunit --group=station14 --log-junit ./test-outputs/station14.xml",
+            "command": "docker compose exec php-container vendor/bin/phpunit tests/Station14 --log-junit ./test-outputs/station14.xml",
             "args": [],
             "shell": true,
             "reportFile": "/test-outputs/station14.xml"
