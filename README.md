@@ -1,9 +1,8 @@
 ## 環境構築
+
+**※Docker Desktopを必ずインストールした上で始めてください。**
+
+下記コマンドを実行します。
 ```sh
-# 初回のみ
-bin/setup
-
-# docker コンテナへのアクセス
-bin/docker-run
+docker compose up -d
 ```
-
