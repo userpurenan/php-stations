@@ -1,4 +1,0 @@
-#!/bin/sh
-
-docker build ./docker/php/ -t php-stations:latest
-docker run --rm -t -i --volume $PWD:/app composer install
