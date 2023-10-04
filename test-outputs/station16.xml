@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/app/tests/Station16" tests="24" assertions="27" errors="0" warnings="0" failures="0" skipped="0" time="3.612309">
+    <testsuite name="Tests\Station16\Question\CarTest" file="/app/tests/Station16/Question/CarTest.php" tests="13" assertions="16" errors="0" warnings="0" failures="0" skipped="0" time="3.120087">
+      <testcase name="nameプロパティを持つ" class="Tests\Station16\Question\CarTest" classname="Tests.Station16.Question.CarTest" file="/app/tests/Station16/Question/CarTest.php" line="31" assertions="1" time="0.550211"/>
+      <testcase name="nameプロパティの型定義がstringである" class="Tests\Station16\Question\CarTest" classname="Tests.Station16.Question.CarTest" file="/app/tests/Station16/Question/CarTest.php" line="39" assertions="1" time="2.387600"/>
+      <testcase name="初期値0のpassengerプロパティを持つ" class="Tests\Station16\Question\CarTest" classname="Tests.Station16.Question.CarTest" file="/app/tests/Station16/Question/CarTest.php" line="49" assertions="1" time="0.017463"/>
+      <testcase name="passengerプロパティの型定義がintである" class="Tests\Station16\Question\CarTest" classname="Tests.Station16.Question.CarTest" file="/app/tests/Station16/Question/CarTest.php" line="63" assertions="1" time="0.017993"/>
+      <testcase name="constructor_nameプロパティに値を代入する" class="Tests\Station16\Question\CarTest" classname="Tests.Station16.Question.CarTest" file="/app/tests/Station16/Question/CarTest.php" line="73" assertions="1" time="0.000052"/>
+      <testcase name="constructor_引数nameの型定義がstringである" class="Tests\Station16\Question\CarTest" classname="Tests.Station16.Question.CarTest" file="/app/tests/Station16/Question/CarTest.php" line="84" assertions="1" time="0.081988"/>
+      <testcase name="run_文字列_走行する_を出力する" class="Tests\Station16\Question\CarTest" classname="Tests.Station16.Question.CarTest" file="/app/tests/Station16/Question/CarTest.php" line="94" assertions="1" time="0.000064"/>
+      <testcase name="run_返り値の型定義がvoidである" class="Tests\Station16\Question\CarTest" classname="Tests.Station16.Question.CarTest" file="/app/tests/Station16/Question/CarTest.php" line="105" assertions="1" time="0.024176"/>
+      <testsuite name="Tests\Station16\Question\CarTest::pickup_指定された分passengerを加算してその値を返す" tests="3" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.000142">
+        <testcase name="pickup_指定された分passengerを加算してその値を返す with data set &quot;0加算&quot;" class="Tests\Station16\Question\CarTest" classname="Tests.Station16.Question.CarTest" file="/app/tests/Station16/Question/CarTest.php" line="116" assertions="2" time="0.000068"/>
+        <testcase name="pickup_指定された分passengerを加算してその値を返す with data set &quot;1加算&quot;" class="Tests\Station16\Question\CarTest" classname="Tests.Station16.Question.CarTest" file="/app/tests/Station16/Question/CarTest.php" line="116" assertions="2" time="0.000046"/>
+        <testcase name="pickup_指定された分passengerを加算してその値を返す with data set &quot;2加算&quot;" class="Tests\Station16\Question\CarTest" classname="Tests.Station16.Question.CarTest" file="/app/tests/Station16/Question/CarTest.php" line="116" assertions="2" time="0.000029"/>
+      </testsuite>
+      <testcase name="pickup_引数の型定義がintである" class="Tests\Station16\Question\CarTest" classname="Tests.Station16.Question.CarTest" file="/app/tests/Station16/Question/CarTest.php" line="137" assertions="1" time="0.020456"/>
+      <testcase name="pickup_返り値の型定義がintである" class="Tests\Station16\Question\CarTest" classname="Tests.Station16.Question.CarTest" file="/app/tests/Station16/Question/CarTest.php" line="147" assertions="1" time="0.019942"/>
+    </testsuite>
+    <testsuite name="Tests\Station16\Question\HumanTest" file="/app/tests/Station16/Question/HumanTest.php" tests="6" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.237255">
+      <testcase name="nameプロパティを持つ" class="Tests\Station16\Question\HumanTest" classname="Tests.Station16.Question.HumanTest" file="/app/tests/Station16/Question/HumanTest.php" line="23" assertions="1" time="0.017708"/>
+      <testcase name="nameプロパティの型定義がstringである" class="Tests\Station16\Question\HumanTest" classname="Tests.Station16.Question.HumanTest" file="/app/tests/Station16/Question/HumanTest.php" line="31" assertions="1" time="0.149655"/>
+      <testcase name="constructor_nameプロパティに値を代入する" class="Tests\Station16\Question\HumanTest" classname="Tests.Station16.Question.HumanTest" file="/app/tests/Station16/Question/HumanTest.php" line="41" assertions="1" time="0.000100"/>
+      <testcase name="buyCar_nameと指定Carのnameから文字列を出力する" class="Tests\Station16\Question\HumanTest" classname="Tests.Station16.Question.HumanTest" file="/app/tests/Station16/Question/HumanTest.php" line="62" assertions="1" time="0.000094"/>
+      <testcase name="buyCar_引数carの型定義がCarクラスである" class="Tests\Station16\Question\HumanTest" classname="Tests.Station16.Question.HumanTest" file="/app/tests/Station16/Question/HumanTest.php" line="74" assertions="1" time="0.040947"/>
+      <testcase name="buyCar_返り値の型定義がvoidである" class="Tests\Station16\Question\HumanTest" classname="Tests.Station16.Question.HumanTest" file="/app/tests/Station16/Question/HumanTest.php" line="84" assertions="1" time="0.028750"/>
+    </testsuite>
+    <testsuite name="Tests\Station16\Question\QuestionTest" file="/app/tests/Station16/Question/QuestionTest.php" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.254967">
+      <testcase name="車を購入して走り乗客を乗せる" class="Tests\Station16\Question\QuestionTest" classname="Tests.Station16.Question.QuestionTest" file="/app/tests/Station16/Question/QuestionTest.php" line="21" assertions="1" time="0.019420"/>
+      <testcase name="第1引数の型定義がstringである" class="Tests\Station16\Question\QuestionTest" classname="Tests.Station16.Question.QuestionTest" file="/app/tests/Station16/Question/QuestionTest.php" line="32" assertions="1" time="0.162537"/>
+      <testcase name="第2引数の型定義がstringである" class="Tests\Station16\Question\QuestionTest" classname="Tests.Station16.Question.QuestionTest" file="/app/tests/Station16/Question/QuestionTest.php" line="42" assertions="1" time="0.024573"/>
+      <testcase name="第3引数の型定義がintである" class="Tests\Station16\Question\QuestionTest" classname="Tests.Station16.Question.QuestionTest" file="/app/tests/Station16/Question/QuestionTest.php" line="52" assertions="1" time="0.022475"/>
+      <testcase name="返り値の型定義がvoidである" class="Tests\Station16\Question\QuestionTest" classname="Tests.Station16.Question.QuestionTest" file="/app/tests/Station16/Question/QuestionTest.php" line="62" assertions="1" time="0.025963"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

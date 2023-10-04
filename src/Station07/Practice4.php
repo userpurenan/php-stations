@@ -6,7 +6,14 @@ class Practice4
 {
     public function main(): void
     {
-        // ここにサンプルコードを記述
+        $array = [
+            ['id' => 1, 'name' => '太郎'],
+            ['id' => 2, 'name' => '次郎'],
+            ['id' => 3, 'name' => '花子']
+        ];
+        
+        $array2 = array_column($array, 'name', 'id');
+        print_r($array2);
     }
 }
 

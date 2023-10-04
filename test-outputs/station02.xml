@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="9" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.509076">
+    <testsuite name="Questions" tests="9" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.509076">
+      <testsuite name="Tests\Station02\QuestionTest" file="/app/tests/Station02/QuestionTest.php" tests="9" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.509076">
+        <testsuite name="Tests\Station02\QuestionTest::引数に応じた文字列を返す" tests="9" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.509076">
+          <testcase name="引数に応じた文字列を返す with data set #0" class="Tests\Station02\QuestionTest" classname="Tests.Station02.QuestionTest" file="/app/tests/Station02/QuestionTest.php" line="24" assertions="1" time="0.508621"/>
+          <testcase name="引数に応じた文字列を返す with data set #1" class="Tests\Station02\QuestionTest" classname="Tests.Station02.QuestionTest" file="/app/tests/Station02/QuestionTest.php" line="24" assertions="1" time="0.000080"/>
+          <testcase name="引数に応じた文字列を返す with data set #2" class="Tests\Station02\QuestionTest" classname="Tests.Station02.QuestionTest" file="/app/tests/Station02/QuestionTest.php" line="24" assertions="1" time="0.000061"/>
+          <testcase name="引数に応じた文字列を返す with data set #3" class="Tests\Station02\QuestionTest" classname="Tests.Station02.QuestionTest" file="/app/tests/Station02/QuestionTest.php" line="24" assertions="1" time="0.000054"/>
+          <testcase name="引数に応じた文字列を返す with data set #4" class="Tests\Station02\QuestionTest" classname="Tests.Station02.QuestionTest" file="/app/tests/Station02/QuestionTest.php" line="24" assertions="1" time="0.000053"/>
+          <testcase name="引数に応じた文字列を返す with data set #5" class="Tests\Station02\QuestionTest" classname="Tests.Station02.QuestionTest" file="/app/tests/Station02/QuestionTest.php" line="24" assertions="1" time="0.000053"/>
+          <testcase name="引数に応じた文字列を返す with data set #6" class="Tests\Station02\QuestionTest" classname="Tests.Station02.QuestionTest" file="/app/tests/Station02/QuestionTest.php" line="24" assertions="1" time="0.000050"/>
+          <testcase name="引数に応じた文字列を返す with data set #7" class="Tests\Station02\QuestionTest" classname="Tests.Station02.QuestionTest" file="/app/tests/Station02/QuestionTest.php" line="24" assertions="1" time="0.000051"/>
+          <testcase name="引数に応じた文字列を返す with data set #8" class="Tests\Station02\QuestionTest" classname="Tests.Station02.QuestionTest" file="/app/tests/Station02/QuestionTest.php" line="24" assertions="1" time="0.000053"/>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

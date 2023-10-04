@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/app/tests/Station15" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.346476">
+    <testsuite name="Tests\Station15\Question\CalculatorTest" file="/app/tests/Station15/Question/CalculatorTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.327496">
+      <testcase name="かけられる数の配列が空の場合はfalseを返す" class="Tests\Station15\Question\CalculatorTest" classname="Tests.Station15.Question.CalculatorTest" file="/app/tests/Station15/Question/CalculatorTest.php" line="25" assertions="1" time="0.302448"/>
+      <testsuite name="Tests\Station15\Question\CalculatorTest::かけられる値を出力する" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.025048">
+        <testcase name="かけられる値を出力する with data set &quot;かけられる数が 1 個&quot;" class="Tests\Station15\Question\CalculatorTest" classname="Tests.Station15.Question.CalculatorTest" file="/app/tests/Station15/Question/CalculatorTest.php" line="36" assertions="1" time="0.025000"/>
+        <testcase name="かけられる値を出力する with data set &quot;かけられる数が 2 個&quot;" class="Tests\Station15\Question\CalculatorTest" classname="Tests.Station15.Question.CalculatorTest" file="/app/tests/Station15/Question/CalculatorTest.php" line="36" assertions="1" time="0.000048"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Tests\Station15\Question\QuestionTest" file="/app/tests/Station15/Question/QuestionTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.018980">
+      <testsuite name="Tests\Station15\Question\QuestionTest::_1から3までの数値をN倍した整数の値を出力する" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.018980">
+        <testcase name="_1から3までの数値をN倍した整数の値を出力する with data set &quot;かける数=2&quot;" class="Tests\Station15\Question\QuestionTest" classname="Tests.Station15.Question.QuestionTest" file="/app/tests/Station15/Question/QuestionTest.php" line="17" assertions="1" time="0.018926"/>
+        <testcase name="_1から3までの数値をN倍した整数の値を出力する with data set &quot;かける数=3&quot;" class="Tests\Station15\Question\QuestionTest" classname="Tests.Station15.Question.QuestionTest" file="/app/tests/Station15/Question/QuestionTest.php" line="17" assertions="1" time="0.000054"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

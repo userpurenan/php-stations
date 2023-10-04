@@ -4,18 +4,25 @@ namespace Src\Station13\Practice;
 
 class Animal
 {
-    public function eat()
+    public function active()
     {
-        echo '食べる';
+        $this->run();
+        $this->stop();
+        $this->jump();
     }
 
-    protected function sleep()
+    protected function run()
     {
-        echo '寝る';
+        echo '走る';
     }
 
-    private function active()
+    private function stop()
     {
-        echo '活動する';
+        echo '止まる';
+    }
+
+    private function jump()
+    {
+        echo 'ジャンプ';
     }
 }

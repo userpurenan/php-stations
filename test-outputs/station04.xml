@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/app/tests/Station04" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.380005">
+    <testsuite name="Tests\Station04\QuestionTest" file="/app/tests/Station04/QuestionTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.380005">
+      <testcase name="_1から7までの加算結果を返す" class="Tests\Station04\QuestionTest" classname="Tests.Station04.QuestionTest" file="/app/tests/Station04/QuestionTest.php" line="23" assertions="1" time="0.380005"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

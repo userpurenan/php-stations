@@ -6,5 +6,8 @@ class Question
 {
     public function main(): void
     {
+        $car = new Car();
+        $car->pickup();
+        $car->getDoors();
     }
 }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/app/tests/Station13" tests="17" assertions="18" errors="0" warnings="0" failures="0" skipped="0" time="0.710791">
+    <testsuite name="Tests\Station13\Question\CarTest" file="/app/tests/Station13/Question/CarTest.php" tests="4" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.658090">
+      <testcase name="Vehicleクラスを継承している" class="Tests\Station13\Question\CarTest" classname="Tests.Station13.Question.CarTest" file="/app/tests/Station13/Question/CarTest.php" line="27" assertions="1" time="0.657921"/>
+      <testcase name="hazard_文字列_ハザードランプを点灯する_を表示する" class="Tests\Station13\Question\CarTest" classname="Tests.Station13.Question.CarTest" file="/app/tests/Station13/Question/CarTest.php" line="37" assertions="1" time="0.000085"/>
+      <testcase name="run_maxSpeedを60に変更して文字列を出力する" class="Tests\Station13\Question\CarTest" classname="Tests.Station13.Question.CarTest" file="/app/tests/Station13/Question/CarTest.php" line="46" assertions="2" time="0.000040"/>
+      <testcase name="back_hazardを実行して文字列を出力する" class="Tests\Station13\Question\CarTest" classname="Tests.Station13.Question.CarTest" file="/app/tests/Station13/Question/CarTest.php" line="61" assertions="1" time="0.000045"/>
+    </testsuite>
+    <testsuite name="Tests\Station13\Question\QuestionTest" file="/app/tests/Station13/Question/QuestionTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.022216">
+      <testcase name="turnRight_backLeftを実行する" class="Tests\Station13\Question\QuestionTest" classname="Tests.Station13.Question.QuestionTest" file="/app/tests/Station13/Question/QuestionTest.php" line="16" assertions="1" time="0.022216"/>
+    </testsuite>
+    <testsuite name="Tests\Station13\Question\VehicleTest" file="/app/tests/Station13/Question/VehicleTest.php" tests="12" assertions="12" errors="0" warnings="0" failures="0" skipped="0" time="0.030484">
+      <testcase name="maxSpeedプロパティが定義されている" class="Tests\Station13\Question\VehicleTest" classname="Tests.Station13.Question.VehicleTest" file="/app/tests/Station13/Question/VehicleTest.php" line="29" assertions="1" time="0.029764"/>
+      <testcase name="nameプロパティが定義されている" class="Tests\Station13\Question\VehicleTest" classname="Tests.Station13.Question.VehicleTest" file="/app/tests/Station13/Question/VehicleTest.php" line="44" assertions="1" time="0.000068"/>
+      <testcase name="turnRight_3つの文字列を出力する" class="Tests\Station13\Question\VehicleTest" classname="Tests.Station13.Question.VehicleTest" file="/app/tests/Station13/Question/VehicleTest.php" line="59" assertions="1" time="0.000057"/>
+      <testcase name="backLeft_3つの文字列を出力する" class="Tests\Station13\Question\VehicleTest" classname="Tests.Station13.Question.VehicleTest" file="/app/tests/Station13/Question/VehicleTest.php" line="70" assertions="1" time="0.000049"/>
+      <testcase name="run_文字列_アクセルを踏む_を出力する" class="Tests\Station13\Question\VehicleTest" classname="Tests.Station13.Question.VehicleTest" file="/app/tests/Station13/Question/VehicleTest.php" line="81" assertions="1" time="0.000044"/>
+      <testcase name="stop_文字列_ブレーキを踏む_を出力する" class="Tests\Station13\Question\VehicleTest" classname="Tests.Station13.Question.VehicleTest" file="/app/tests/Station13/Question/VehicleTest.php" line="92" assertions="1" time="0.000059"/>
+      <testcase name="right_文字列_右にハンドルを回す_を出力する" class="Tests\Station13\Question\VehicleTest" classname="Tests.Station13.Question.VehicleTest" file="/app/tests/Station13/Question/VehicleTest.php" line="103" assertions="1" time="0.000045"/>
+      <testcase name="left_文字列_左にハンドルを回す_を出力する" class="Tests\Station13\Question\VehicleTest" classname="Tests.Station13.Question.VehicleTest" file="/app/tests/Station13/Question/VehicleTest.php" line="114" assertions="1" time="0.000040"/>
+      <testcase name="back_文字列_バックする_を出力する" class="Tests\Station13\Question\VehicleTest" classname="Tests.Station13.Question.VehicleTest" file="/app/tests/Station13/Question/VehicleTest.php" line="125" assertions="1" time="0.000038"/>
+      <testsuite name="Tests\Station13\Question\VehicleTest::他クラスで利用しない各メソッドがprivateになっている" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000319">
+        <testcase name="他クラスで利用しない各メソッドがprivateになっている with data set #0" class="Tests\Station13\Question\VehicleTest" classname="Tests.Station13.Question.VehicleTest" file="/app/tests/Station13/Question/VehicleTest.php" line="137" assertions="1" time="0.000086"/>
+        <testcase name="他クラスで利用しない各メソッドがprivateになっている with data set #1" class="Tests\Station13\Question\VehicleTest" classname="Tests.Station13.Question.VehicleTest" file="/app/tests/Station13/Question/VehicleTest.php" line="137" assertions="1" time="0.000146"/>
+        <testcase name="他クラスで利用しない各メソッドがprivateになっている with data set #2" class="Tests\Station13\Question\VehicleTest" classname="Tests.Station13.Question.VehicleTest" file="/app/tests/Station13/Question/VehicleTest.php" line="137" assertions="1" time="0.000087"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

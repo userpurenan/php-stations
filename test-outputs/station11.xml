@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/app/tests/Station11" tests="5" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="1.170973">
+    <testsuite name="Tests\Station11\QuestionTest" file="/app/tests/Station11/QuestionTest.php" tests="5" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="1.170973">
+      <testcase name="_300円の予算内で3つのお菓子データを抽出する" class="Tests\Station11\QuestionTest" classname="Tests.Station11.QuestionTest" file="/app/tests/Station11/QuestionTest.php" line="43" assertions="3" time="1.038170"/>
+      <testcase name="お菓子データの抽出はランダムである" class="Tests\Station11\QuestionTest" classname="Tests.Station11.QuestionTest" file="/app/tests/Station11/QuestionTest.php" line="55" assertions="1" time="0.080636"/>
+      <testcase name="getSweetsLessThanBudgetでの処理が命名に合致する" class="Tests\Station11\QuestionTest" classname="Tests.Station11.QuestionTest" file="/app/tests/Station11/QuestionTest.php" line="72" assertions="1" time="0.052000"/>
+      <testcase name="getRandomKeysでの処理が命名に合致する" class="Tests\Station11\QuestionTest" classname="Tests.Station11.QuestionTest" file="/app/tests/Station11/QuestionTest.php" line="93" assertions="1" time="0.000106"/>
+      <testcase name="makeCombinationでの処理が命名に合致する" class="Tests\Station11\QuestionTest" classname="Tests.Station11.QuestionTest" file="/app/tests/Station11/QuestionTest.php" line="112" assertions="1" time="0.000061"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

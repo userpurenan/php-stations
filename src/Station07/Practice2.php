@@ -6,7 +6,14 @@ class Practice2
 {
     public function main(): void
     {
-        // ここにサンプルコードを記述
+        $array = ['apple' => 1, 'banana' => 2, 'rime' => 5];
+
+        $addedArray = array_map(function ($value) 
+        {
+            return $value + 1;
+        }, $array);
+
+        print_r($addedArray);
     }
 }
 

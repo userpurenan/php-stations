@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/app/tests/Station09" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.407659">
+    <testsuite name="Tests\Station09\QuestionTest" file="/app/tests/Station09/QuestionTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.407659">
+      <testcase name="ageとfull_name要素の追加_password要素を削除した連想配列を返す" class="Tests\Station09\QuestionTest" classname="Tests.Station09.QuestionTest" file="/app/tests/Station09/QuestionTest.php" line="23" assertions="1" time="0.407659"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

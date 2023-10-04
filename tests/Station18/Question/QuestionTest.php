@@ -60,4 +60,3 @@ class QuestionTest extends TestCase
         $this->assertTrue(str_starts_with($result[1], 'Found 0 of 1 files that can be fixed'));
     }
 }
-

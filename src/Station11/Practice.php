@@ -11,6 +11,13 @@ class Practice
      */
     public function main($students)
     {
+        [$men, $women] = $this->separatedByGender($students);
+        $teams = $this->createMixedTeam($men, $women);
+        print_r($teams);
+    }
+
+    private function separatedByGender($students)
+    {
         $men = [];
         $women = [];
         foreach ($students as $student) {
@@ -23,7 +30,11 @@ class Practice
                 break;
             }
         }
+        return [$men, $women];
+    }
 
+    private function createMixedTeam($men, $women)
+    {
         $teams = [[], [], []];
         foreach ($men as $key => $man) {
             $teams[$key%3][] = $man;
@@ -32,8 +43,9 @@ class Practice
             $teams[$key%3][] = $woman;
         }
 
-        print_r($teams);
+        return $teams;
     }
+
 }
 
 $students = [
